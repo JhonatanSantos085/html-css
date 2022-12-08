@@ -1,7 +1,42 @@
 @charset "UTF-8";
 
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 250px;
+}
+
+h1{
+    font-size: 75px;
+    margin-top: 0px;
+    padding-top: 70px;
+}
+
+.normal{
+    height: 500px;
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 52px;
+    margin-top: 10px;
+}
+
 .imagen{
-    background-size: ;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.imagen p{
+    background-color: rgba(0, 0, 0, 0.403);
+    border-radius: 10px;
+    height: 500px;
+    width: 450px;
+    color: white;
+    padding: 10px;
+    font-size: 250%;
 }
 
 #img01{
@@ -10,4 +45,11 @@
 
 #img02{
     background-image: url(imagens/background002.jpg);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20px;
 }
