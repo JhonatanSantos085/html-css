@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse: collapse;
+}
+tr{
+    text-align: center;
+}
+td, th{
+    border-collapse: collapse;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+}
+thead, tfoot{
+    background-color: rgb(81, 81, 81);
+    color: white;
+}
+.alesquerda{
+    text-align: left;
+
+}
